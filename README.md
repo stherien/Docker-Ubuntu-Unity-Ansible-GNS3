@@ -21,34 +21,40 @@ sudo docker pull stherien/gns3-net-automation
 The default usage of this image is:
 
 ```
-Start Gns3 and create a Docker image using stherien/gns3-net-automation
+Start Gns3 and create a Docker image using stherien/gns3-net-automation.
+Then drag the newly created image on Gns3 desktop app to start pulling image from DockerHub.
 ```
+
 
 ![alt text](https://github.com/stherien/Docker-Ubuntu-Unity-Ansible-GNS3/raw/master/gns3-docker.png "Docker image installation")
 
 
-The default parameters of this image are:
+
+Edit gns3-net-automation configuration and adjust the default parameters of this image:
 
 ```
-1 - Drag the newly created image on Gns3 desktop app.
-2 - Edit gns3-net-automation configuration and set Console type to vnc
-3 - Edit gns3-net-automation configuration and adjust screen size
-4 - Edit gns3-net-automation configuration and set Environment variable as follows: PASSWORD=ubuntu
+1 - Set Console type to vnc
+2 - Adjust screen size
+3 - Set Environment variable as follows: PASSWORD=ubuntu
 ```
+
 
 ![alt text](https://github.com/stherien/Docker-Ubuntu-Unity-Ansible-GNS3/raw/master/gns3-config.png "Initial configuration")
 
 
+
 Once you connect to the console, you can see this screen:
 
+
 ![alt text](https://github.com/stherien/Docker-Ubuntu-Unity-Ansible-GNS3/raw/master/gns3-audg.png "gns3-net-automation")
+
 
 
 ## Arguments
 
 This image contains one input argument:
 
-1. Password
+Password
 
    You can set your own ubuntu user password as you like:
 
